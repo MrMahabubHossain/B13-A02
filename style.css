@@ -1,3 +1,9 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
 /* Website Font */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
@@ -6,12 +12,168 @@
   font-optical-sizing: auto;
 }
 
+body{
+    max-width: 1600px;
+}
+
+/* Website major colors */
+
+
+.primary-fg{
+    color: white;
+}
+
+.secondary-fg{
+    color: #00FF88;
+}
+
 .primary-bg{
-    color: #412567;
+    background-color: #412567;
 }
 
 .secondary-bg{
-    color: #230E3D;
+    background-color: #230E3D;
 }
 
+.grid-bg{
+    background-color: #351165;
+}
+
+.featured-episodes-bg{
+    background-color: #250D44;
+}
+
+.host-bg{
+    background-color: #250D44;
+}
+
+
+.display-flex{
+    display: flex;
+}
+
+/* navbar section */
+.navbar{
+    justify-content: space-around;
+    padding:10px;
+}
+
+.logo{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.nav{
+    width: 220px;
+    list-style: none;
+    justify-content: space-around;
+
+}
+.nav-link{
+   text-decoration: none;
+   font-size: .8rem;
+   font-weight: 100;
+}
+
+.linear{
+    background-image: linear-gradient(28deg,#F7E93F,#FB09B4,#9100F8);
+    color: transparent;
+    background-clip: text;
+}
+
+
+.subscribe-btn{
+    background-image: linear-gradient(28deg, #F7E93F, #FB09B4, #9100F8);
+    border: none;
+    border-radius: 1000px;
+    padding: 5px;
+}
+
+/* nav section complete */
+
+
+
+
+/* banner section */
+.banner-container{
+    background-image: url(./assets/hero-bg.png);
+    background-position: center;
+    background-position: center;
+    width: 1600px;
+    height: 760px;
+}
+
+.banner-content{
+    padding-top: 100px;
+    text-align: center;
+}
+
+.banner-content h2{
+    margin-top: 40px;
+    font-size: 3.75rem;
+    font-weight: bold;
+}
+
+.banner-content p{
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.banner-content button{
+    margin-top: 20px;
+    border-radius: 1000px;
+    padding: 10px;
+}
+
+.spotify-btn{
+    background-image: linear-gradient(28deg,#F7E93F,#FB09B4,#9100F8);
+    border: none;
+}
+
+.sub-btn{
+    background-color: transparent;
+    border: 1px solid #00FF88;
+    
+}
+/* banner section complete */
+
+
+/* podcast section */
+.podcast{
+    height: 647px;
+    background-color: #1A0B2E;
+}
+
+
+.podcast h3{
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.podcast p{
+    color: white;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.stats{
+    justify-content: space-evenly;
+    padding-top: 60px;
+}
+
+.number{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #00FF88;
+    text-align: center;
+}
+
+.number-desc{
+    font-size: 1rem;
+    font-weight: 200;
+    color: white;
+}
+/* podcast section complete */
 
