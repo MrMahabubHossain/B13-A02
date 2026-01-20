@@ -280,7 +280,7 @@ body{
 .feature-section{
     margin: 0px;
     padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 100px;
     background-color: #1A0B2E;
 }
 
@@ -377,4 +377,61 @@ body{
     background: rgba(0, 0, 0, 0.7);
     transform: scale(1.05);
 }
+/* feature section complete  */
 
+
+
+/* host section */
+.host-section{
+    background-color: #1A0B2E;
+    padding-bottom: 120px;
+}
+
+.host-heading{
+    color: white;
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom:30px ;
+}
+
+.host-card-container{
+    background-color: #250D44;
+    border-radius: 40px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 30px ;
+}
+
+.host-card-content{
+    padding-left: 30px;
+}
+
+.host-card-content h3{
+    font-size: 2rem;
+    font-weight: 800;
+    color: white;
+    padding-top: 20px;
+}
+
+.host-card-content p{
+    font-size: 1rem;
+    font-weight: 100;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.img-circle{
+    width: 32px;
+    height: 32px;
+    border: 0.5px solid white;
+    border-radius: 50px; 
+}
+/* host section complete */
+
+
+
+
+/* footer section */
