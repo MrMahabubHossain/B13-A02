@@ -435,3 +435,43 @@ body{
 
 
 /* footer section */
+.footer-container{
+    background-image: url(./assets/footer-bg.png);
+    width: 1600px;
+    height: 412px;
+    align-items: center;
+}
+
+.footer-content{
+    padding-top: 70px;
+    text-align: center;
+}
+
+.footer-content h3{
+    margin-top: 40px;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.footer-socials{
+    padding-top: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+}
+
+.footer-socials-sub{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+}
+
+.footer-content p{
+    padding-top: 35px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 100;
+}
+/* footer section complete */
