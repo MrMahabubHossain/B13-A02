@@ -65,7 +65,7 @@ nav li {
 /* banner section style */
 .banner-container {
   height: 760px;
-  background-image: url(../assets/hero-bg.png);
+  background-image: url(./assets/hero-bg.png);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -363,7 +363,7 @@ nav li {
  footer{
     width: 1600px;
     height: 412px;
-    background-image: url(../assets/footer-bg.png);
+    background-image: url(./assets/footer-bg.png);
     background-size: cover;
     background-position: center;
  }
